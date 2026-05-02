@@ -1,6 +1,10 @@
+const scrollTo = (id: string) => {
+  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+};
+
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/50">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
@@ -13,6 +17,12 @@ const Header = () => {
             <p className="text-xs text-muted-foreground leading-tight">Цифровая зуботехническая лаборатория</p>
           </div>
         </div>
+
+        <nav className="hidden md:flex items-center gap-6">
+          <button onClick={() => scrollTo("portfolio")} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Работы</button>
+          <button onClick={() => scrollTo("price")} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Прайс</button>
+          <button onClick={() => scrollTo("contacts")} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Контакты</button>
+        </nav>
 
         <a
           href="tel:+79215760336"

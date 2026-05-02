@@ -61,7 +61,7 @@ const Portfolio = () => {
   const [selected, setSelected] = useState<number | null>(null);
 
   return (
-    <section className="py-20 px-4 bg-muted/30">
+    <section id="portfolio" className="py-20 px-4 bg-muted/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-3">Примеры работ</h2>

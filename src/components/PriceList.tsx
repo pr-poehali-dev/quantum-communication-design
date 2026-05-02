@@ -139,7 +139,7 @@ const PriceList = () => {
   const [openCategory, setOpenCategory] = useState<number | null>(null);
 
   return (
-    <section className="py-20 px-4 bg-background">
+    <section id="price" className="py-20 px-4 bg-background">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-3">Прайс-лист</h2>
