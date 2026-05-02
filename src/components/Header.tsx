@@ -19,6 +19,7 @@ const Header = () => {
         </div>
 
         <nav className="hidden md:flex items-center gap-6">
+          <button onClick={() => scrollTo("about")} className="text-sm text-muted-foreground hover:text-foreground transition-colors">О нас</button>
           <button onClick={() => scrollTo("portfolio")} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Работы</button>
           <button onClick={() => scrollTo("price")} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Прайс</button>
           <button onClick={() => scrollTo("contacts")} className="text-sm text-muted-foreground hover:text-foreground transition-colors">Контакты</button>

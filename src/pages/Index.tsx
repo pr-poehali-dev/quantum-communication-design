@@ -3,6 +3,7 @@ import Portfolio from "@/components/Portfolio";
 import PriceList from "@/components/PriceList";
 import Contacts from "@/components/Contacts";
 import Header from "@/components/Header";
+import About from "@/components/About";
 
 const Index = () => {
   const images = [
@@ -28,6 +29,7 @@ const Index = () => {
         cardSizeSm={80}
         className="pt-16 pb-16 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24"
       />
+      <About />
       <Portfolio />
       <PriceList />
       <Contacts />
