@@ -2,6 +2,7 @@ import ArcGalleryHero from "@/components/ArcGalleryHero";
 import Portfolio from "@/components/Portfolio";
 import PriceList from "@/components/PriceList";
 import Contacts from "@/components/Contacts";
+import Header from "@/components/Header";
 
 const Index = () => {
   const images = [
@@ -14,6 +15,7 @@ const Index = () => {
 
   return (
     <main className="relative min-h-screen bg-background">
+      <Header />
       <ArcGalleryHero
         images={images}
         startAngle={20}
