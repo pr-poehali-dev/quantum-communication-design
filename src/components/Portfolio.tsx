@@ -45,7 +45,7 @@ const works = [
   },
   {
     id: 8,
-    src: "https://cdn.poehali.dev/projects/74144a3b-fae0-4f29-bf2f-82a5b4768023/bucket/d8e5d2bd-698c-4bb4-b337-503d557a6054.JPG",
+    src: "https://cdn.poehali.dev/projects/74144a3b-fae0-4f29-bf2f-82a5b4768023/bucket/98d4779a-6464-4e01-9bbb-c619389c790c.JPG",
     title: "Контроль формы",
     desc: "Контроль формы при наслоении керамики",
   },
