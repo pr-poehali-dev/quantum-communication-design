@@ -1,4 +1,5 @@
 import ArcGalleryHero from "@/components/ArcGalleryHero";
+import Portfolio from "@/components/Portfolio";
 import PriceList from "@/components/PriceList";
 
 const Index = () => {
@@ -24,6 +25,7 @@ const Index = () => {
         cardSizeSm={80}
         className="pt-16 pb-16 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24"
       />
+      <Portfolio />
       <PriceList />
     </main>
   );
