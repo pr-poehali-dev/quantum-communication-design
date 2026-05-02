@@ -9,7 +9,7 @@ const advantages = [
   {
     icon: "Shield",
     title: "Точность и надёжность",
-    desc: "Каждая конструкция проходит многоэтапный контроль качества. Отклонение не более 20 микрон.",
+    desc: "Каждая конструкция проходит многоэтапный контроль качества. Отклонение не более 5 микрон.",
   },
   {
     icon: "Clock",
@@ -57,7 +57,7 @@ const About = () => {
               </div>
               <div className="w-px bg-border" />
               <div>
-                <p className="text-3xl font-bold text-primary">20 мкм</p>
+                <p className="text-3xl font-bold text-primary">5 мкм</p>
                 <p className="text-sm text-muted-foreground mt-1">точность фрезеровки</p>
               </div>
               <div className="w-px bg-border" />
