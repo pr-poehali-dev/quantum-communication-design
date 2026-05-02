@@ -1,6 +1,7 @@
 import ArcGalleryHero from "@/components/ArcGalleryHero";
 import Portfolio from "@/components/Portfolio";
 import PriceList from "@/components/PriceList";
+import Contacts from "@/components/Contacts";
 
 const Index = () => {
   const images = [
@@ -27,6 +28,7 @@ const Index = () => {
       />
       <Portfolio />
       <PriceList />
+      <Contacts />
     </main>
   );
 };
